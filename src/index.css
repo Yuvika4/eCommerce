@@ -1,2 +1,34 @@
 @import "tailwindcss";
 
+.arrows{
+    height:40px;
+    width:40px;
+    margin:1px;
+}
+
+.arrows{
+    height:40px;
+    width:40px;
+    margin:1px;
+}
+
+input{
+    background-color: #fff;
+    accent-color: orange;
+    border:1px solid #ccc;
+    color:#333;
+}
+
+/* Toastify override styles */
+.toastify-custom .Toastify__toast-icon svg {
+  fill: #ff6900 !important; /* Orange icon */
+}
+
+.toastify-custom .Toastify__progress-bar {
+  background: #ff6900 !important; /* Orange progress bar */
+}
+
+.toastify-custom .Toastify__toast-body {
+  color: #ff6900 !important; /* Orange text (optional) */
+}
+

@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Corousel from "../components/Corousel";
+import Features from "../components/Features";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Corousel />
+      <Features />
+    </>
+  );
+};
 
-export default Home
+export default Home;
